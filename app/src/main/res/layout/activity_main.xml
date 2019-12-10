@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:text="Alert Dialog by Shaked Dromi" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/rgbcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="rgbcolor"
+        android:text="1st option" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/mix"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="mix"
+        android:text="2nd option" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/white"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="white"
+        android:text="3rd option" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/income"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:onClick="income"
+        android:text="4th option" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+</LinearLayout>
+
